@@ -7,23 +7,35 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/LlbNombre"
+        android:id="@+id/LlbNum1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/nombre"/>
+        android:text="@string/numero1"/>
 
     <EditText
-        android:id="@+id/TxtNombre"
+        android:id="@+id/TxtNum1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"/>
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/LlbNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numero2"/>
+
+    <EditText
+        android:id="@+id/TxtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
 
     <Button
-        android:id="@+id/BtnEnviar"
+        android:id="@+id/BtnCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:text="@string/enviar"/>
+        android:text="@string/sumar"/>
 
     <TextView
         android:id="@+id/LlbResultado"

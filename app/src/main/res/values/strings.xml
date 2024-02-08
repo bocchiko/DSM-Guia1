@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Practica 1</string>
     <string name="resultado">Resultado: </string>
-    <string name="nombre">Digitar Nombre: </string>
-    <string name="enviar">Enviar</string>
+    <string name="numero1">Digitar Número 1: </string>
+    <string name="numero2">Digitar Número 2: </string>
+    <string name="sumar">Sumar</string>
 </resources>
